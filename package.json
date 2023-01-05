@@ -1,9 +1,9 @@
 {
-  "name": "projectname",
+  "name": "dbcasestudy",
   "author": "Oliver Kniejski",
   "license": "CC BY-SA 4.0",
   "version": "0.0.1",
-  "description": "description",
+  "description": "REST API calculating distance between train stations",
   "private": true,
   "scripts": {
     "start": "cross-env NODE_ENV=development node app.js"

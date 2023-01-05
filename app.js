@@ -1,4 +1,6 @@
-/** Main app
+/** Main app for dbCaseStudy
+ *
+ * @description REST API calculating distance between train stations
  *
  * Note: environment variables in package.json
  * NODE_ENV=development
