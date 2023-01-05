@@ -15,7 +15,7 @@ var express = require('express');
 var requestLogger = require('morgan');
 
 // routes
-//var route1 = require('./routes/route1');
+var distance = require('./routes/distance');
 
 // ********************** App Creation **********************
 var app = express();
@@ -24,7 +24,7 @@ var app = express();
 app.use(requestLogger('dev'));
 
 // ********************** Routes **********************
-//app.use('/path1', route1);
+app.use('/api/v1/distance', distance);
 
 // ********************** Errorhandling and requests without proper URLs **********************
 // 404 and forward to error handler
