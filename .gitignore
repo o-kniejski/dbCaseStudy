@@ -1,5 +1,6 @@
-# Dependency directories
+# node files
 node_modules/
+package-lock.json
 
 # Mac Folder info
 .DS_Store
